@@ -16,7 +16,7 @@ sparksqletl:
     dev:
       type: hive
       # Add sample credentials here, like:
-      host: hiveserver2.default.svc.cluster.local
+      host: spark-connect-cluster.default.svc.cluster.local
       port: 10001
       http_path: cliservice
       auth_type: ldap
@@ -28,7 +28,7 @@ sparksqletl:
     test:
       type: hive
       # Add sample credentials here, like:
-      host: hiveserver2.default.svc.cluster.local
+      host: spark-connect-cluster.default.svc.cluster.local
       port: 10001
       http_path: cliservice
       auth_type: ldap
