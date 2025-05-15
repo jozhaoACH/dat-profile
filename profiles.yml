@@ -37,4 +37,16 @@ sparksqletl:
       schema: asqltest01
       username: powerjosh@ach.org.au
       password: 
+    prod:
+      type: hive
+      # Add sample credentials here, like:
+      host: spark-connect-cluster.default.svc.cluster.local
+      port: 10001
+      http_path: cliservice
+      auth_type: ldap
+      use_http_transport: true
+      use_ssl: false
+      schema: prod
+      username: powerjosh@ach.org.au
+      password: 
   target: dev
